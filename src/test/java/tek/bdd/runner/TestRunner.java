@@ -11,7 +11,9 @@ import org.junit.runner.RunWith;
         dryRun = false,
         //tags = " @CreateNewAccount",
         plugin = {
-                "html:target/html_report/index.html"
+                "pretty",
+                "html:target/html_report/index.html",
+                "json:target/json_Reports/report.json"
         }
 )
 public class TestRunner {
