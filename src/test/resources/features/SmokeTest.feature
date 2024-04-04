@@ -1,5 +1,5 @@
 Feature: Major Functionalities for Smoke Test
-
+@SmokeTest
   Scenario: Validate Home page title
     Then Validate top left corner is "TEKSCHOOL"
 

@@ -3,7 +3,7 @@ Feature: Retail App security test feature
  # Background: Description about the background
   #  Given user click on sign In Button
 
-
+@SecurityTest
 
 Scenario Outline: Validate Valid user credential
   Given User click on Sign In Button
